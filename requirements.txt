@@ -1,0 +1,10 @@
+git+https://github.com/openai/whisper.git 
+numpy
+tqdm
+torch==1.13.1
+auditok==0.2.0
+whisper==1.0
+argparse==1.4.0
+matplotlib==3.6.2
+transformers>=4.19.0
+ffmpeg-python==0.2.0
