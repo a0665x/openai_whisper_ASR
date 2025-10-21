@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI Whisper WebUI Preview</title>
+  <desc id="desc">Schematic preview of the Whisper ASR WebUI layout used in the README.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5f7fb" />
+      <stop offset="1" stop-color="#e5ebf7" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" stroke="#d0d6e2" stroke-width="2" rx="24" />
+  <g font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" fill="#202838">
+    <text x="60" y="80" font-size="36" font-weight="600">OpenAI Whisper 即時語音辨識</text>
+    <text x="60" y="120" font-size="20" fill="#445065">使用瀏覽器錄製語音並即時取得 Whisper 轉寫結果。</text>
+  </g>
+  <g transform="translate(60 150)">
+    <rect width="840" height="120" fill="#ffffff" stroke="#c6cee0" stroke-width="2" rx="18" />
+    <text x="30" y="42" font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" font-size="22" fill="#1b2439">模型大小</text>
+    <rect x="28" y="58" width="220" height="44" fill="#eef2fb" stroke="#8fa1d4" stroke-width="2" rx="12" />
+    <text x="42" y="88" font-family="'Fira Code', monospace" font-size="20" fill="#20335b">small ▼</text>
+    <text x="320" y="42" font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" font-size="22" fill="#1b2439">Temperature</text>
+    <rect x="318" y="58" width="220" height="44" fill="#eef2fb" stroke="#8fa1d4" stroke-width="2" rx="12" />
+    <text x="332" y="88" font-family="'Fira Code', monospace" font-size="20" fill="#20335b">0.0</text>
+    <text x="612" y="42" font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" font-size="22" fill="#1b2439">語言</text>
+    <rect x="610" y="58" width="200" height="44" fill="#eef2fb" stroke="#8fa1d4" stroke-width="2" rx="12" />
+    <text x="624" y="88" font-family="'Fira Code', monospace" font-size="20" fill="#20335b">auto ▼</text>
+  </g>
+  <g transform="translate(60 300)">
+    <rect width="400" height="160" fill="#ffffff" stroke="#c6cee0" stroke-width="2" rx="18" />
+    <text x="30" y="42" font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" font-size="22" fill="#1b2439">錄製或上傳音訊</text>
+    <rect x="28" y="60" width="344" height="72" fill="#eef2fb" stroke="#8fa1d4" stroke-width="2" rx="12" />
+    <text x="46" y="102" font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" font-size="20" fill="#20335b">● 麥克風待命中…</text>
+  </g>
+  <g transform="translate(520 300)">
+    <rect width="380" height="160" fill="#ffffff" stroke="#c6cee0" stroke-width="2" rx="18" />
+    <text x="30" y="42" font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" font-size="22" fill="#1b2439">辨識結果</text>
+    <rect x="28" y="60" width="324" height="72" fill="#f9fafc" stroke="#d9e1f2" stroke-width="2" rx="12" />
+    <text x="40" y="98" font-family="'Noto Sans TC', 'Noto Sans', Arial, sans-serif" font-size="18" fill="#3c4a6d">（等待語音輸入…）</text>
+  </g>
+  <g transform="translate(60 480)">
+    <rect width="840" height="40" fill="#eef2fb" stroke="#c6cee0" stroke-width="2" rx="12" />
+    <text x="30" y="26" font-family="'Fira Code', monospace" font-size="18" fill="#3c4a6d">環境資訊：Model small | Device cuda | ffmpeg available</text>
+  </g>
+</svg>
